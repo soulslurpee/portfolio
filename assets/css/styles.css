@@ -2,6 +2,7 @@
     --primary-color: rgba(119, 3, 252, 1);
     --secondary-color: rgba(23, 5, 43, 1);
     --tertiary-color: rgba(255, 255, 255, 1);
+    --little-button: 45%;
     }
 
 * {
@@ -101,12 +102,15 @@ section {
 }
 
 .section-content div {
+    
     width: 80%;
     flex-wrap: wrap;
     border: 1px solid black;
+    justify-content: space-between;
 }
 
 .section-content div p {
+    display:inline-flex;
     margin: 15px;
     border: 1px solid blue;
     flex-wrap: wrap;
@@ -135,25 +139,25 @@ section {
 
 #runbuddy {
     background-image: url(../images/hero-bg.jpg);
-    max-width: 80%;
+    width: 100%;
 }
 
 #runbuddy2 {
     background-image: url(../images/hero-bg.jpg);
-    max-width: 30%;
+    width: var(--little-button);
 }
 
 #runbuddy3 {
     background-image: url(../images/hero-bg.jpg);
-    max-width: 30%;
+    width: var(--little-button);
 }
 
 #runbuddy4 {
     background-image: url(../images/hero-bg.jpg);
-    max-width: 30%;
+    width: var(--little-button);
 }
 
 #runbuddy5 {
     background-image: url(../images/hero-bg.jpg);
-    max-width: 30%;
+    width: var(--little-button);
 }

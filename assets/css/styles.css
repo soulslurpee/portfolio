@@ -87,7 +87,7 @@ section {
     font-size: 48px;
     font-style: bold;
     justify-content: flex-end;
-    margin: 15px 15px 15px;
+    margin: 25px;
     padding: 0 20px 20px 20px;
     width: 20%;
     border-right: 4px solid var(--primary-color);
@@ -97,12 +97,21 @@ section {
 .section-content {
     font-size: 24px;
     width: 80%;
-    margin: 15px 15px 15px;
-    padding: 0 20px 20px 20px;
+    margin-right: 5%;
+    flex-wrap: wrap;
     
-
 }
 
 .flex-row {
     display: flex;
+}
+
+.largeimg {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.smallimg {
+    width: 75%;
+    margin-top: 10px;
 }

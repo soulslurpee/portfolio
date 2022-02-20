@@ -84,18 +84,22 @@ section {
 }
 
 .section-title {
-    display: flex;
     font-size: 48px;
     font-style: bold;
-    text-align: right;
-    margin: 15px 15px 15px 5%;
+    justify-content: flex-end;
+    margin: 15px 15px 15px;
     padding: 0 20px 20px 20px;
     width: 20%;
     border-right: 4px solid var(--primary-color);
+    text-align: right;
 }
 
 .section-content {
     font-size: 24px;
+    width: 80%;
+    margin: 15px 15px 15px;
+    padding: 0 20px 20px 20px;
+    
 
 }
 
